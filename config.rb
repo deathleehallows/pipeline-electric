@@ -47,7 +47,7 @@
 #   end
 # end
 
-activate :deploy do
+activate :deploy do |deploy|
   deploy.method = :git
 end
 
@@ -57,7 +57,13 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
-# sprockets.append_path File.join "#{root}", "bower_components"
+set :fonts_dir,  "fonts-folder"
+
+sprockets.append_path File.join "#{root}", "bower_components"
+
+sprockets.import_asset 'jquery/dist/jquery.min.js'
+
+# sprockets.import_asset 'galleria'
 
 # Build-specific configuration
 configure :build do
