@@ -1,0 +1,142 @@
+@charset "utf-8";
+@import "font-awesome.css";
+
+body {
+  background: #eef0f2;
+  text-align: center;
+  font-family: 'Avenir Next', sans-serif; }
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.pure-menu.pure-menu-horizontal .pure-menu-heading{
+  text-transform: uppercase;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  z-index: 10;
+}
+
+.pure-menu-heading img{
+  display: inline-block;
+  padding-top: 15px;
+}
+
+.pure-menu-heading span{
+  margin-top: 8px;
+  line-height: 150px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.pure-menu ul{
+  margin-top: 3px;
+}
+
+.galleria{
+  height: 750px;
+  padding-top: 190px;
+}
+
+.galleria-stage {
+    height: 750px;
+    position: absolute;
+    top: 10px;
+    bottom: 60px;
+    left: 10px;
+    right: 10px;
+    overflow: hidden;
+}
+
+@media (max-width: 705px){
+  .pure-menu.pure-menu-horizontal ul{
+    margin-top: 0px;
+  }
+  .galleria{
+    padding-top: 250px;
+  }
+}
+
+.about .pure-u-g, .project-gallery .pure-u-g{
+  padding-top: 80px;
+  text-align: left;
+  font-size: 18px;
+  margin-top: 180px;
+}
+
+.contact .pure-u-g{
+  margin-top: 180px;
+}
+
+h1, h4{
+  text-align: left;
+  font-weight: 500;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.main-content{
+  margin-top: 180px;
+  z-index: 10;
+}
+
+.project-type{
+  padding: 80px 0px;
+}
+
+.red{
+  background: #fc0d1b;
+  color: white;
+}
+
+.cta{
+  z-index: -10;
+  position: fixed;
+  left: 0;
+  padding-top: 100px;
+  background: #fc0d1b;
+  height: 400px;
+  color: #ffffff;
+}
+
+.cta h2{
+  font-weight: 400px;
+  padding-top: 160px;
+}
+
+.categories{
+  margin-top: 40px;
+}
+
+a .category{
+  text-decoration: none;
+  text-align: center;
+  background-color: #fc0d1b;
+  height: 160px;
+  padding-top: 40px;
+  margin: 20px 10px;
+  font-size: 24px;
+  color: white;
+}
+
+category:hover{
+  background-color: white;
+  color: #fc0d1b;
+}
+
+i.fa{
+  display: block;
+  padding-bottom: 20px;
+}
+
+.project-gallery i.fa{
+  margin-top: 137px;
+  padding-bottom: 0px;
+}
