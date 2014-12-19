@@ -140,3 +140,8 @@ i.fa{
   margin-top: 137px;
   padding-bottom: 0px;
 }
+
+
+div.galleria-info{
+  z-index: 1!important;
+}
